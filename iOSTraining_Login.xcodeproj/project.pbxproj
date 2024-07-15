@@ -16,6 +16,8 @@
 		F8195A062C44D2020056A3B2 /* iOSTraining_LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8195A052C44D2020056A3B2 /* iOSTraining_LoginTests.swift */; };
 		F8195A102C44D2020056A3B2 /* iOSTraining_LoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8195A0F2C44D2020056A3B2 /* iOSTraining_LoginUITests.swift */; };
 		F8195A122C44D2020056A3B2 /* iOSTraining_LoginUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8195A112C44D2020056A3B2 /* iOSTraining_LoginUITestsLaunchTests.swift */; };
+		F8195A232C44EB790056A3B2 /* b976dd5cb325d8d0108bf8ec73efa0b0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8195A222C44EB790056A3B2 /* b976dd5cb325d8d0108bf8ec73efa0b0.jpg */; };
+		F8195A2B2C4520980056A3B2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8195A2A2C4520980056A3B2 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,9 @@
 		F8195A0B2C44D2020056A3B2 /* iOSTraining_LoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTraining_LoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8195A0F2C44D2020056A3B2 /* iOSTraining_LoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTraining_LoginUITests.swift; sourceTree = "<group>"; };
 		F8195A112C44D2020056A3B2 /* iOSTraining_LoginUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTraining_LoginUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F8195A222C44EB790056A3B2 /* b976dd5cb325d8d0108bf8ec73efa0b0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = b976dd5cb325d8d0108bf8ec73efa0b0.jpg; path = ../../../Downloads/b976dd5cb325d8d0108bf8ec73efa0b0.jpg; sourceTree = "<group>"; };
+		F8195A252C44EF490056A3B2 /* b976dd5cb325d8d0108bf8ec73efa0b0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b976dd5cb325d8d0108bf8ec73efa0b0.jpg; sourceTree = "<group>"; };
+		F8195A2A2C4520980056A3B2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +104,11 @@
 		F81959ED2C44D1FF0056A3B2 /* iOSTraining_Login */ = {
 			isa = PBXGroup;
 			children = (
-				F81959EE2C44D1FF0056A3B2 /* AppDelegate.swift */,
-				F81959F02C44D1FF0056A3B2 /* SceneDelegate.swift */,
+				F8195A242C44EF2B0056A3B2 /* Files */,
 				F81959F22C44D1FF0056A3B2 /* ViewController.swift */,
 				F81959F42C44D1FF0056A3B2 /* Main.storyboard */,
-				F81959F72C44D2010056A3B2 /* Assets.xcassets */,
-				F81959F92C44D2010056A3B2 /* LaunchScreen.storyboard */,
-				F81959FC2C44D2010056A3B2 /* Info.plist */,
+				F8195A222C44EB790056A3B2 /* b976dd5cb325d8d0108bf8ec73efa0b0.jpg */,
+				F8195A2A2C4520980056A3B2 /* SecondViewController.swift */,
 			);
 			path = iOSTraining_Login;
 			sourceTree = "<group>";
@@ -125,6 +128,19 @@
 				F8195A112C44D2020056A3B2 /* iOSTraining_LoginUITestsLaunchTests.swift */,
 			);
 			path = iOSTraining_LoginUITests;
+			sourceTree = "<group>";
+		};
+		F8195A242C44EF2B0056A3B2 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				F81959EE2C44D1FF0056A3B2 /* AppDelegate.swift */,
+				F81959F02C44D1FF0056A3B2 /* SceneDelegate.swift */,
+				F81959F72C44D2010056A3B2 /* Assets.xcassets */,
+				F81959F92C44D2010056A3B2 /* LaunchScreen.storyboard */,
+				F8195A252C44EF490056A3B2 /* b976dd5cb325d8d0108bf8ec73efa0b0.jpg */,
+				F81959FC2C44D2010056A3B2 /* Info.plist */,
+			);
+			name = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8195A232C44EB790056A3B2 /* b976dd5cb325d8d0108bf8ec73efa0b0.jpg in Resources */,
 				F81959F82C44D2010056A3B2 /* Assets.xcassets in Resources */,
 				F81959FB2C44D2010056A3B2 /* Base in Resources */,
 				F81959F62C44D1FF0056A3B2 /* Base in Resources */,
@@ -258,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8195A2B2C4520980056A3B2 /* SecondViewController.swift in Sources */,
 				F81959F32C44D1FF0056A3B2 /* ViewController.swift in Sources */,
 				F81959EF2C44D1FF0056A3B2 /* AppDelegate.swift in Sources */,
 				F81959F12C44D1FF0056A3B2 /* SceneDelegate.swift in Sources */,
