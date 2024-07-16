@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Jgq-oW-b0A">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oVB-CT-9Hh">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
@@ -14,11 +14,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" userLabel="SecondView Contoller" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="8KO-zw-a3f">
-                                <rect key="frame" x="20" y="50" width="353" height="143.66666666666666"/>
+                                <rect key="frame" x="20" y="109.00000000000001" width="353" height="60.666666666666671"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" text="Set up your profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Icp-q4-5eS">
                                         <rect key="frame" x="0.0" y="0.0" width="353" height="30"/>
@@ -30,7 +30,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Create an account so you can manage your money even faster" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7tl-fF-DD9">
-                                        <rect key="frame" x="0.0" y="40.000000000000007" width="353" height="103.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="40" width="353" height="20.666666666666671"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -38,7 +38,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="wa5-Bz-kyg">
-                                <rect key="frame" x="20" y="243.66666666666663" width="353" height="250"/>
+                                <rect key="frame" x="20" y="219.66666666666663" width="353" height="250"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" verticalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W1r-e5-4cY">
                                         <rect key="frame" x="0.0" y="0.0" width="353" height="34"/>
@@ -78,7 +78,7 @@
                                 </buttonConfiguration>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="41e-3w-bQE">
-                                <rect key="frame" x="50" y="543.66666666666663" width="323" height="100"/>
+                                <rect key="frame" x="50" y="519.66666666666663" width="323" height="100"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="I'm at least 18 years old and agree to the following terms: " textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S4V-N8-dll">
                                         <rect key="frame" x="0.0" y="0.0" width="323" height="46"/>
@@ -128,12 +128,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1918.3206106870227" y="-34.507042253521128"/>
+            <point key="canvasLocation" x="2845.0381679389311" y="-34.507042253521128"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign In View Controller-->
         <scene sceneID="NAx-ka-9DM">
             <objects>
-                <viewController storyboardIdentifier="viewcontroller" id="Jgq-oW-b0A" customClass="ViewController" customModule="iOSTraining_Login" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Jgq-oW-b0A" customClass="SignInViewController" customModule="iOSTraining_Login" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="abS-jM-RQG">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -144,7 +144,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="2Tb-P9-4wC">
-                                <rect key="frame" x="20" y="430" width="353" height="350"/>
+                                <rect key="frame" x="20" y="474" width="353" height="334.33333333333326"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uqy-dr-04w">
                                         <rect key="frame" x="0.0" y="0.0" width="353" height="50"/>
@@ -158,9 +158,6 @@
                                             </backgroundConfiguration>
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
-                                        <connections>
-                                            <segue destination="BYZ-38-t0r" kind="show" id="rRn-ft-5w3"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0UC-fK-YBT">
                                         <rect key="frame" x="0.0" y="60" width="353" height="50"/>
@@ -175,6 +172,9 @@
                                             </backgroundConfiguration>
                                             <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="signInButton:" destination="Jgq-oW-b0A" eventType="touchUpInside" id="qj9-8G-11X"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XrS-8y-jIH">
                                         <rect key="frame" x="0.0" y="120" width="353" height="50"/>
@@ -214,7 +214,7 @@
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bbq-7i-79N">
-                                        <rect key="frame" x="0.0" y="300" width="353" height="50"/>
+                                        <rect key="frame" x="0.0" y="300" width="353" height="34.333333333333314"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="0AY-wm-613"/>
                                         </constraints>
@@ -243,7 +243,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2fQ-Hp-TWs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1191.6030534351144" y="-23.239436619718312"/>
+            <point key="canvasLocation" x="2116.7938931297708" y="-23.239436619718312"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="el4-dP-vmD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oVB-CT-9Hh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zft-tg-scT">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Jgq-oW-b0A" kind="relationship" relationship="rootViewController" id="zrI-5H-isv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xzM-lw-0yr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1190.0763358778624" y="-23.239436619718312"/>
         </scene>
     </scenes>
     <resources>

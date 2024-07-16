@@ -9,15 +9,28 @@
 /* Begin PBXBuildFile section */
 		F81959EF2C44D1FF0056A3B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81959EE2C44D1FF0056A3B2 /* AppDelegate.swift */; };
 		F81959F12C44D1FF0056A3B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81959F02C44D1FF0056A3B2 /* SceneDelegate.swift */; };
-		F81959F32C44D1FF0056A3B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81959F22C44D1FF0056A3B2 /* ViewController.swift */; };
 		F81959F62C44D1FF0056A3B2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F81959F52C44D1FF0056A3B2 /* Base */; };
 		F81959F82C44D2010056A3B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F81959F72C44D2010056A3B2 /* Assets.xcassets */; };
 		F81959FB2C44D2010056A3B2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F81959FA2C44D2010056A3B2 /* Base */; };
 		F8195A062C44D2020056A3B2 /* iOSTraining_LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8195A052C44D2020056A3B2 /* iOSTraining_LoginTests.swift */; };
 		F8195A102C44D2020056A3B2 /* iOSTraining_LoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8195A0F2C44D2020056A3B2 /* iOSTraining_LoginUITests.swift */; };
 		F8195A122C44D2020056A3B2 /* iOSTraining_LoginUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8195A112C44D2020056A3B2 /* iOSTraining_LoginUITestsLaunchTests.swift */; };
-		F8195A232C44EB790056A3B2 /* b976dd5cb325d8d0108bf8ec73efa0b0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8195A222C44EB790056A3B2 /* b976dd5cb325d8d0108bf8ec73efa0b0.jpg */; };
 		F8195A2B2C4520980056A3B2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8195A2A2C4520980056A3B2 /* SecondViewController.swift */; };
+		F8195A6A2C4609AD0056A3B2 /* TeacherListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8195A682C4609AD0056A3B2 /* TeacherListViewController.swift */; };
+		F8195A6B2C4609AD0056A3B2 /* TeacherListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8195A692C4609AD0056A3B2 /* TeacherListViewController.xib */; };
+		F8195A6D2C460B310056A3B2 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8195A6C2C460B310056A3B2 /* SignInViewController.swift */; };
+		F8BB56B12C46139E0008DACA /* TeacherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8BB56B02C46139E0008DACA /* TeacherCell.xib */; };
+		F8BB56B22C46139E0008DACA /* TeacherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BB56AF2C46139E0008DACA /* TeacherCell.swift */; };
+		F8BB56B92C465FDD0008DACA /* TeacherDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8BB56B82C465FDD0008DACA /* TeacherDetailsViewController.xib */; };
+		F8BB56BA2C465FDD0008DACA /* TeacherDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BB56B72C465FDD0008DACA /* TeacherDetailsViewController.swift */; };
+		F8BB56BD2C466E3C0008DACA /* pfp.png in Resources */ = {isa = PBXBuildFile; fileRef = F8BB56BC2C466E3C0008DACA /* pfp.png */; };
+		F8BB56C22C4670370008DACA /* jane.png in Resources */ = {isa = PBXBuildFile; fileRef = F8BB56BE2C4670370008DACA /* jane.png */; };
+		F8BB56C32C4670370008DACA /* depp.png in Resources */ = {isa = PBXBuildFile; fileRef = F8BB56BF2C4670370008DACA /* depp.png */; };
+		F8BB56C42C4670370008DACA /* angelina.png in Resources */ = {isa = PBXBuildFile; fileRef = F8BB56C02C4670370008DACA /* angelina.png */; };
+		F8BB56C52C4670370008DACA /* penny.png in Resources */ = {isa = PBXBuildFile; fileRef = F8BB56C12C4670370008DACA /* penny.png */; };
+		F8BB56C72C46706C0008DACA /* john.png in Resources */ = {isa = PBXBuildFile; fileRef = F8BB56C62C46706C0008DACA /* john.png */; };
+		F8BB56CA2C46724E0008DACA /* AdsBannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8BB56C92C46724E0008DACA /* AdsBannerCell.xib */; };
+		F8BB56CB2C46724E0008DACA /* AdsBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BB56C82C46724E0008DACA /* AdsBannerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +54,6 @@
 		F81959EB2C44D1FF0056A3B2 /* iOSTraining_Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTraining_Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F81959EE2C44D1FF0056A3B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F81959F02C44D1FF0056A3B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F81959F22C44D1FF0056A3B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F81959F52C44D1FF0056A3B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F81959F72C44D2010056A3B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F81959FA2C44D2010056A3B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,9 +63,24 @@
 		F8195A0B2C44D2020056A3B2 /* iOSTraining_LoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTraining_LoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8195A0F2C44D2020056A3B2 /* iOSTraining_LoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTraining_LoginUITests.swift; sourceTree = "<group>"; };
 		F8195A112C44D2020056A3B2 /* iOSTraining_LoginUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTraining_LoginUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F8195A222C44EB790056A3B2 /* b976dd5cb325d8d0108bf8ec73efa0b0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = b976dd5cb325d8d0108bf8ec73efa0b0.jpg; path = ../../../Downloads/b976dd5cb325d8d0108bf8ec73efa0b0.jpg; sourceTree = "<group>"; };
 		F8195A252C44EF490056A3B2 /* b976dd5cb325d8d0108bf8ec73efa0b0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b976dd5cb325d8d0108bf8ec73efa0b0.jpg; sourceTree = "<group>"; };
 		F8195A2A2C4520980056A3B2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F8195A682C4609AD0056A3B2 /* TeacherListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherListViewController.swift; sourceTree = "<group>"; };
+		F8195A692C4609AD0056A3B2 /* TeacherListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeacherListViewController.xib; sourceTree = "<group>"; };
+		F8195A6C2C460B310056A3B2 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		F8BB56AF2C46139E0008DACA /* TeacherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherCell.swift; sourceTree = "<group>"; };
+		F8BB56B02C46139E0008DACA /* TeacherCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeacherCell.xib; sourceTree = "<group>"; };
+		F8BB56B72C465FDD0008DACA /* TeacherDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherDetailsViewController.swift; sourceTree = "<group>"; };
+		F8BB56B82C465FDD0008DACA /* TeacherDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeacherDetailsViewController.xib; sourceTree = "<group>"; };
+		F8BB56BB2C466D760008DACA /* fox.webp */ = {isa = PBXFileReference; lastKnownFileType = file; name = fox.webp; path = ../../../fox.webp; sourceTree = "<group>"; };
+		F8BB56BC2C466E3C0008DACA /* pfp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pfp.png; path = ../../../pfp.png; sourceTree = "<group>"; };
+		F8BB56BE2C4670370008DACA /* jane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jane.png; path = ../../../jane.png; sourceTree = "<group>"; };
+		F8BB56BF2C4670370008DACA /* depp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = depp.png; path = ../../../depp.png; sourceTree = "<group>"; };
+		F8BB56C02C4670370008DACA /* angelina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = angelina.png; path = ../../../angelina.png; sourceTree = "<group>"; };
+		F8BB56C12C4670370008DACA /* penny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = penny.png; path = ../../../penny.png; sourceTree = "<group>"; };
+		F8BB56C62C46706C0008DACA /* john.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = john.png; path = ../../../john.png; sourceTree = "<group>"; };
+		F8BB56C82C46724E0008DACA /* AdsBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsBannerCell.swift; sourceTree = "<group>"; };
+		F8BB56C92C46724E0008DACA /* AdsBannerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdsBannerCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +132,19 @@
 			isa = PBXGroup;
 			children = (
 				F8195A242C44EF2B0056A3B2 /* Files */,
-				F81959F22C44D1FF0056A3B2 /* ViewController.swift */,
+				F8195A6C2C460B310056A3B2 /* SignInViewController.swift */,
 				F81959F42C44D1FF0056A3B2 /* Main.storyboard */,
-				F8195A222C44EB790056A3B2 /* b976dd5cb325d8d0108bf8ec73efa0b0.jpg */,
+				F81959EE2C44D1FF0056A3B2 /* AppDelegate.swift */,
+				F81959F02C44D1FF0056A3B2 /* SceneDelegate.swift */,
 				F8195A2A2C4520980056A3B2 /* SecondViewController.swift */,
+				F8BB56B72C465FDD0008DACA /* TeacherDetailsViewController.swift */,
+				F8BB56B82C465FDD0008DACA /* TeacherDetailsViewController.xib */,
+				F8195A682C4609AD0056A3B2 /* TeacherListViewController.swift */,
+				F8195A692C4609AD0056A3B2 /* TeacherListViewController.xib */,
+				F8BB56AF2C46139E0008DACA /* TeacherCell.swift */,
+				F8BB56B02C46139E0008DACA /* TeacherCell.xib */,
+				F8BB56C82C46724E0008DACA /* AdsBannerCell.swift */,
+				F8BB56C92C46724E0008DACA /* AdsBannerCell.xib */,
 			);
 			path = iOSTraining_Login;
 			sourceTree = "<group>";
@@ -133,10 +169,15 @@
 		F8195A242C44EF2B0056A3B2 /* Files */ = {
 			isa = PBXGroup;
 			children = (
-				F81959EE2C44D1FF0056A3B2 /* AppDelegate.swift */,
-				F81959F02C44D1FF0056A3B2 /* SceneDelegate.swift */,
 				F81959F72C44D2010056A3B2 /* Assets.xcassets */,
 				F81959F92C44D2010056A3B2 /* LaunchScreen.storyboard */,
+				F8BB56BC2C466E3C0008DACA /* pfp.png */,
+				F8BB56C02C4670370008DACA /* angelina.png */,
+				F8BB56BF2C4670370008DACA /* depp.png */,
+				F8BB56C62C46706C0008DACA /* john.png */,
+				F8BB56BE2C4670370008DACA /* jane.png */,
+				F8BB56C12C4670370008DACA /* penny.png */,
+				F8BB56BB2C466D760008DACA /* fox.webp */,
 				F8195A252C44EF490056A3B2 /* b976dd5cb325d8d0108bf8ec73efa0b0.jpg */,
 				F81959FC2C44D2010056A3B2 /* Info.plist */,
 			);
@@ -247,8 +288,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8195A232C44EB790056A3B2 /* b976dd5cb325d8d0108bf8ec73efa0b0.jpg in Resources */,
+				F8195A6B2C4609AD0056A3B2 /* TeacherListViewController.xib in Resources */,
+				F8BB56CA2C46724E0008DACA /* AdsBannerCell.xib in Resources */,
+				F8BB56C22C4670370008DACA /* jane.png in Resources */,
+				F8BB56C72C46706C0008DACA /* john.png in Resources */,
+				F8BB56C32C4670370008DACA /* depp.png in Resources */,
 				F81959F82C44D2010056A3B2 /* Assets.xcassets in Resources */,
+				F8BB56C42C4670370008DACA /* angelina.png in Resources */,
+				F8BB56BD2C466E3C0008DACA /* pfp.png in Resources */,
+				F8BB56B92C465FDD0008DACA /* TeacherDetailsViewController.xib in Resources */,
+				F8BB56C52C4670370008DACA /* penny.png in Resources */,
+				F8BB56B12C46139E0008DACA /* TeacherCell.xib in Resources */,
 				F81959FB2C44D2010056A3B2 /* Base in Resources */,
 				F81959F62C44D1FF0056A3B2 /* Base in Resources */,
 			);
@@ -276,9 +326,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8195A2B2C4520980056A3B2 /* SecondViewController.swift in Sources */,
-				F81959F32C44D1FF0056A3B2 /* ViewController.swift in Sources */,
+				F8195A6A2C4609AD0056A3B2 /* TeacherListViewController.swift in Sources */,
+				F8195A6D2C460B310056A3B2 /* SignInViewController.swift in Sources */,
 				F81959EF2C44D1FF0056A3B2 /* AppDelegate.swift in Sources */,
+				F8BB56CB2C46724E0008DACA /* AdsBannerCell.swift in Sources */,
+				F8BB56B22C46139E0008DACA /* TeacherCell.swift in Sources */,
 				F81959F12C44D1FF0056A3B2 /* SceneDelegate.swift in Sources */,
+				F8BB56BA2C465FDD0008DACA /* TeacherDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
