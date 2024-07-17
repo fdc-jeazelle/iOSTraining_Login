@@ -29,8 +29,14 @@
 		F8BB56C42C4670370008DACA /* angelina.png in Resources */ = {isa = PBXBuildFile; fileRef = F8BB56C02C4670370008DACA /* angelina.png */; };
 		F8BB56C52C4670370008DACA /* penny.png in Resources */ = {isa = PBXBuildFile; fileRef = F8BB56C12C4670370008DACA /* penny.png */; };
 		F8BB56C72C46706C0008DACA /* john.png in Resources */ = {isa = PBXBuildFile; fileRef = F8BB56C62C46706C0008DACA /* john.png */; };
-		F8BB56CA2C46724E0008DACA /* AdsBannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8BB56C92C46724E0008DACA /* AdsBannerCell.xib */; };
-		F8BB56CB2C46724E0008DACA /* AdsBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BB56C82C46724E0008DACA /* AdsBannerCell.swift */; };
+		F8BB56CE2C4759060008DACA /* ProductsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8BB56CD2C4759060008DACA /* ProductsViewController.xib */; };
+		F8BB56CF2C4759060008DACA /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BB56CC2C4759060008DACA /* ProductsViewController.swift */; };
+		F8BB56D22C4759E60008DACA /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8BB56D12C4759E60008DACA /* ProductCell.xib */; };
+		F8BB56D32C4759E60008DACA /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BB56D02C4759E60008DACA /* ProductCell.swift */; };
+		F8BB56D52C4761730008DACA /* jake.png in Resources */ = {isa = PBXBuildFile; fileRef = F8BB56D42C4761730008DACA /* jake.png */; };
+		F8BB56D72C47617F0008DACA /* iceking.png in Resources */ = {isa = PBXBuildFile; fileRef = F8BB56D62C47617F0008DACA /* iceking.png */; };
+		F8BB56DA2C479E820008DACA /* ProductDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8BB56D92C479E820008DACA /* ProductDetailsViewController.xib */; };
+		F8BB56DB2C479E820008DACA /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BB56D82C479E820008DACA /* ProductDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,8 +85,14 @@
 		F8BB56C02C4670370008DACA /* angelina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = angelina.png; path = ../../../angelina.png; sourceTree = "<group>"; };
 		F8BB56C12C4670370008DACA /* penny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = penny.png; path = ../../../penny.png; sourceTree = "<group>"; };
 		F8BB56C62C46706C0008DACA /* john.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = john.png; path = ../../../john.png; sourceTree = "<group>"; };
-		F8BB56C82C46724E0008DACA /* AdsBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsBannerCell.swift; sourceTree = "<group>"; };
-		F8BB56C92C46724E0008DACA /* AdsBannerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdsBannerCell.xib; sourceTree = "<group>"; };
+		F8BB56CC2C4759060008DACA /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		F8BB56CD2C4759060008DACA /* ProductsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsViewController.xib; sourceTree = "<group>"; };
+		F8BB56D02C4759E60008DACA /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		F8BB56D12C4759E60008DACA /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		F8BB56D42C4761730008DACA /* jake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jake.png; path = ../../../jake.png; sourceTree = "<group>"; };
+		F8BB56D62C47617F0008DACA /* iceking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iceking.png; path = ../../../iceking.png; sourceTree = "<group>"; };
+		F8BB56D82C479E820008DACA /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
+		F8BB56D92C479E820008DACA /* ProductDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductDetailsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,8 +155,12 @@
 				F8195A692C4609AD0056A3B2 /* TeacherListViewController.xib */,
 				F8BB56AF2C46139E0008DACA /* TeacherCell.swift */,
 				F8BB56B02C46139E0008DACA /* TeacherCell.xib */,
-				F8BB56C82C46724E0008DACA /* AdsBannerCell.swift */,
-				F8BB56C92C46724E0008DACA /* AdsBannerCell.xib */,
+				F8BB56CC2C4759060008DACA /* ProductsViewController.swift */,
+				F8BB56CD2C4759060008DACA /* ProductsViewController.xib */,
+				F8BB56D02C4759E60008DACA /* ProductCell.swift */,
+				F8BB56D12C4759E60008DACA /* ProductCell.xib */,
+				F8BB56D82C479E820008DACA /* ProductDetailsViewController.swift */,
+				F8BB56D92C479E820008DACA /* ProductDetailsViewController.xib */,
 			);
 			path = iOSTraining_Login;
 			sourceTree = "<group>";
@@ -176,9 +192,11 @@
 				F8BB56BF2C4670370008DACA /* depp.png */,
 				F8BB56C62C46706C0008DACA /* john.png */,
 				F8BB56BE2C4670370008DACA /* jane.png */,
+				F8BB56D42C4761730008DACA /* jake.png */,
 				F8BB56C12C4670370008DACA /* penny.png */,
 				F8BB56BB2C466D760008DACA /* fox.webp */,
 				F8195A252C44EF490056A3B2 /* b976dd5cb325d8d0108bf8ec73efa0b0.jpg */,
+				F8BB56D62C47617F0008DACA /* iceking.png */,
 				F81959FC2C44D2010056A3B2 /* Info.plist */,
 			);
 			name = Files;
@@ -289,7 +307,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8195A6B2C4609AD0056A3B2 /* TeacherListViewController.xib in Resources */,
-				F8BB56CA2C46724E0008DACA /* AdsBannerCell.xib in Resources */,
 				F8BB56C22C4670370008DACA /* jane.png in Resources */,
 				F8BB56C72C46706C0008DACA /* john.png in Resources */,
 				F8BB56C32C4670370008DACA /* depp.png in Resources */,
@@ -297,10 +314,15 @@
 				F8BB56C42C4670370008DACA /* angelina.png in Resources */,
 				F8BB56BD2C466E3C0008DACA /* pfp.png in Resources */,
 				F8BB56B92C465FDD0008DACA /* TeacherDetailsViewController.xib in Resources */,
+				F8BB56D72C47617F0008DACA /* iceking.png in Resources */,
 				F8BB56C52C4670370008DACA /* penny.png in Resources */,
+				F8BB56D22C4759E60008DACA /* ProductCell.xib in Resources */,
+				F8BB56CE2C4759060008DACA /* ProductsViewController.xib in Resources */,
+				F8BB56D52C4761730008DACA /* jake.png in Resources */,
 				F8BB56B12C46139E0008DACA /* TeacherCell.xib in Resources */,
 				F81959FB2C44D2010056A3B2 /* Base in Resources */,
 				F81959F62C44D1FF0056A3B2 /* Base in Resources */,
+				F8BB56DA2C479E820008DACA /* ProductDetailsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,10 +349,12 @@
 			files = (
 				F8195A2B2C4520980056A3B2 /* SecondViewController.swift in Sources */,
 				F8195A6A2C4609AD0056A3B2 /* TeacherListViewController.swift in Sources */,
+				F8BB56CF2C4759060008DACA /* ProductsViewController.swift in Sources */,
+				F8BB56DB2C479E820008DACA /* ProductDetailsViewController.swift in Sources */,
 				F8195A6D2C460B310056A3B2 /* SignInViewController.swift in Sources */,
 				F81959EF2C44D1FF0056A3B2 /* AppDelegate.swift in Sources */,
-				F8BB56CB2C46724E0008DACA /* AdsBannerCell.swift in Sources */,
 				F8BB56B22C46139E0008DACA /* TeacherCell.swift in Sources */,
+				F8BB56D32C4759E60008DACA /* ProductCell.swift in Sources */,
 				F81959F12C44D1FF0056A3B2 /* SceneDelegate.swift in Sources */,
 				F8BB56BA2C465FDD0008DACA /* TeacherDetailsViewController.swift in Sources */,
 			);

@@ -33,8 +33,6 @@ class TeacherListViewController: UIViewController {
         let nib = UINib(nibName: "TeacherCell", bundle: nil)
         self.tableView.register(nib, forCellReuseIdentifier: "TeacherCell")
         // Do any additional setup after loading the view.
-        let nib_2 = UINib(nibName: "AdsBannerCell", bundle: nil)
-        self.tableView.register(nib, forCellReuseIdentifier: "AdsBannerCell")
     }
 
    

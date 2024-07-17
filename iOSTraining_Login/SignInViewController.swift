@@ -22,6 +22,10 @@ class SignInViewController: UIViewController {
         self.navigationController?.pushViewController(VC, animated: true) //with back button
     }
     
+    @IBAction func productListBtn(_ sender: Any) {
+        let VC = ProductsViewController()
+        self.navigationController?.pushViewController(VC, animated: true)
+    }
     /*
     // MARK: - Navigation
 
