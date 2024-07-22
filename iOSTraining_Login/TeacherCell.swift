@@ -27,5 +27,4 @@ class TeacherCell: UITableViewCell {
     }
     
     
-    
 }

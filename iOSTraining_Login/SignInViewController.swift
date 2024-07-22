@@ -11,12 +11,12 @@ class SignInViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
     
     @IBAction func signInButton(_ sender: Any) {
-        let VC  = TeacherListViewController()
+        let VC  = CustomTabBarController()
 //        VC.modalPresentationStyle = .fullScreen //Modal full screen
 //        self.present(VC, animated: true) //MODAL Presentation
         self.navigationController?.pushViewController(VC, animated: true) //with back button
@@ -26,8 +26,11 @@ class SignInViewController: UIViewController {
         let VC = ProductsViewController()
         self.navigationController?.pushViewController(VC, animated: true)
     }
+    
+   
     /*
-    // MARK: - Navigation
+   
+     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

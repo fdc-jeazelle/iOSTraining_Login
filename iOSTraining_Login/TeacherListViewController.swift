@@ -6,6 +6,7 @@
 //
 
 import UIKit
+
 struct Teacher {
     let name: String
     let country:  String
@@ -86,8 +87,22 @@ extension TeacherListViewController: UITableViewDelegate, UITableViewDataSource 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
             let detailObj = TeacherDetailsViewController(nibName: "TeacherDetailsViewController", bundle: nil)
             detailObj.teacher = teachers[indexPath.row]
+            detailObj.delegate = self
             self.navigationController?.pushViewController(detailObj, animated: true) //with back button
         
         
     }
+}
+
+
+extension TeacherListViewController: TeacherDetailsViewControllerDelegate {
+    func didReportTeacher(name: String) {
+        let alert = UIAlertController(title: "Notification", message: "You have reported \(name)", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Close", style: .cancel, handler: nil))
+        
+        self.present(alert, animated: true)
+        
+    }
+    
+
 }

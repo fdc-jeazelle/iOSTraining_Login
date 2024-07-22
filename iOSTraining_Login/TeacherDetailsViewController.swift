@@ -7,8 +7,19 @@
 
 import UIKit
 
-class TeacherDetailsViewController: UIViewController {
 
+protocol TeacherDetailsViewControllerDelegate {
+    func didReportTeacher(name:String)
+    func didAddToFavorite()
+}
+//
+extension TeacherDetailsViewControllerDelegate { //add this code to make didAddToFavorite() function optional
+    func didAddToFavorite(){
+    } //optional function
+}
+class TeacherDetailsViewController: UIViewController {
+    var delegate: TeacherDetailsViewControllerDelegate?
+    
     @IBOutlet weak var imageview: UIImageView!
     @IBOutlet weak var namelbl: UILabel!
     @IBOutlet weak var ratingslbl: UILabel!
@@ -33,7 +44,14 @@ class TeacherDetailsViewController: UIViewController {
         
         super.viewDidLoad()
         
+        let reportBarButtonItem = UIBarButtonItem(title: "Report", style: .plain, target: self, action: #selector(didTapReport))
+        
+        self.navigationItem.rightBarButtonItem = reportBarButtonItem
         // Do any additional setup after loading the view.
+    }
+    
+    @objc private func didTapReport(){
+        self.delegate?.didReportTeacher(name: namelbl.text!) //call function:didReportTeacher() trigger to use in Teacher List View Controller for notification purposes
     }
 
 

@@ -3,7 +3,6 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
-        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -138,12 +137,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hx8-az-NTI">
-                                <rect key="frame" x="0.0" y="383" width="393" height="467"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <view alpha="0.84999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hx8-az-NTI">
+                                <rect key="frame" x="0.0" y="383" width="393" height="469"/>
+                                <color key="backgroundColor" red="0.14901961389999999" green="0.11372549830000001" blue="0.270588249" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="2Tb-P9-4wC">
-                                <rect key="frame" x="20" y="393" width="353" height="410"/>
+                                <rect key="frame" x="20" y="408" width="353" height="410"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IGF-OV-4Iy">
                                         <rect key="frame" x="0.0" y="0.0" width="353" height="50"/>
@@ -153,9 +152,9 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Product List">
                                             <backgroundConfiguration key="background" cornerRadius="25">
-                                                <color key="backgroundColor" systemColor="systemMintColor"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </backgroundConfiguration>
-                                            <color key="baseForegroundColor" systemColor="linkColor"/>
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="productListBtn:" destination="Jgq-oW-b0A" eventType="touchUpInside" id="ykr-JF-GLc"/>
@@ -169,9 +168,10 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Sign Up">
                                             <backgroundConfiguration key="background" cornerRadius="25">
-                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="strokeColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </backgroundConfiguration>
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0UC-fK-YBT">
@@ -197,7 +197,7 @@
                                             <constraint firstAttribute="height" constant="50" id="rjl-fD-zpa"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5V5-JU-xed">
@@ -248,12 +248,12 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mH2-TZ-b4z"/>
-                        <color key="backgroundColor" systemColor="linkColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="hx8-az-NTI" firstAttribute="top" secondItem="mH2-TZ-b4z" secondAttribute="top" constant="280" id="1xf-R2-ZcT"/>
                             <constraint firstItem="hx8-az-NTI" firstAttribute="leading" secondItem="mH2-TZ-b4z" secondAttribute="leading" id="5Hf-9T-KcB"/>
-                            <constraint firstItem="2Tb-P9-4wC" firstAttribute="top" secondItem="mH2-TZ-b4z" secondAttribute="top" constant="290" id="CVS-en-Avr"/>
-                            <constraint firstAttribute="bottom" secondItem="hx8-az-NTI" secondAttribute="bottom" constant="2" id="WkW-EI-EXb"/>
+                            <constraint firstItem="2Tb-P9-4wC" firstAttribute="top" secondItem="mH2-TZ-b4z" secondAttribute="top" constant="305" id="CVS-en-Avr"/>
+                            <constraint firstAttribute="bottom" secondItem="hx8-az-NTI" secondAttribute="bottom" id="WkW-EI-EXb"/>
                             <constraint firstItem="hx8-az-NTI" firstAttribute="trailing" secondItem="mH2-TZ-b4z" secondAttribute="trailing" id="f84-bj-1qq"/>
                             <constraint firstItem="2Tb-P9-4wC" firstAttribute="leading" secondItem="mH2-TZ-b4z" secondAttribute="leading" constant="20" id="qmQ-LP-Qeq"/>
                             <constraint firstItem="mH2-TZ-b4z" firstAttribute="trailing" secondItem="2Tb-P9-4wC" secondAttribute="trailing" constant="20" id="zqp-lM-ZxN"/>
@@ -285,12 +285,6 @@
         </scene>
     </scenes>
     <resources>
-        <namedColor name="AccentColor">
-            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
@@ -299,9 +293,6 @@
         </systemColor>
         <systemColor name="systemGrayColor">
             <color red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemMintColor">
-            <color red="0.0" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

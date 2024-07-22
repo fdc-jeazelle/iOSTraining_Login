@@ -1,0 +1,6 @@
+framework module Pods_iOSTraining_Login {
+  umbrella header "Pods-iOSTraining_Login-umbrella.h"
+
+  export *
+  module * { export * }
+}
